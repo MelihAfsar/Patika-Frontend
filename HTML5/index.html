@@ -1,0 +1,80 @@
+<!--  Ctrl + Ö ile açıklama satırı -->
+<!DOCTYPE html>
+    <head>
+        <title>Html Giriş</title>
+        <meta property="Html Giriş:description" content="Bu bir çalışma web sitesidir.">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Kodluyoruz,programlama,web">
+        <meta name="dominantColor" content="red">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+        <meta name="author" content="Kodluyoruz">
+        <meta http-equiv="refresh" content="10000; URL=index.html"> <!-- 10sn sonra belirtilen adrese gider.-->
+
+        <style></style>
+        <!-- async özelliği scriptlerin sayfadan asenkron olarak yüklenmesini sağlar. -->
+        <!-- Eğer bu etiketin sayfa yüklendikten sonra yüklenmesini istiyorsak defer özelliğini kullanmalıyız. -->
+        <!-- Bu iki özellik sayfa harici yazılmış olan HTML kodları içindir. -->
+        <script src="myJavascript.js" async defer>
+            document.write("Kodluyoruz");
+        </script>
+
+       
+        <!--  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+Bu kod parçacığı ile eğer script farklı kaynaklardan alınacaksa kod parçacığının orijinal olup olmadığının sağlanmaktadır.
+
+        -->
+
+
+        <noscript></noscript>
+
+
+        <!-- Link etiketi kullanımı dokümanımızda bulunmayan bir yapıyı farklı bir dokümandan alacak isek buranın adresini vermemizi sağlar.
+        Dokümanımızda bulunmayan bir css yapısının adresi verilebilir.-->
+        <!-- Uzak yapıdaki bir adreste olabilir. -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Uzak yapıdaki bir adreste olabilir. -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- link rel="icon"  özelliği ile browserdaki web sayfalarının logolarının gözükmesi -->
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+        <base>
+
+    </head>
+    <body>
+        <div>
+            <!-- Örnek Yorum Satırı -->
+            <H1> Deneme Yazısı Sitesidir.</H1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique iure totam, quasi commodi ipsa velit voluptatibus architecto harum praesentium consectetur placeat vero dolore id illum necessitatibus natus vitae perferendis non!
+    
+                <br>
+    
+                <a href="https://www.google.com"><strong>Tıkla</strong></a>
+                <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Officia, dolorem error.</li>
+                    <li>Libero, omnis a.</li>
+                </ul>
+    
+            </p>
+        </div>
+
+        <div>
+            <img src="görseller/kodluyoruz.jpg" alt="Kodluyoruz Bootcamp" />
+        </div>
+
+        <iframe width="1519" height="581" src="https://www.youtube.com/embed/BHPYQHnD_QA" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+        <button> <a href="https://www.google.com">Tıkla</a></button>
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
