@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sayfa2</title>
+        <meta charset="UTF-8">
+        <meta property="HTML Ek özellikler" content="Listeler,emmet">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+        <meta name="author" content="Melih Afşar">
+        <meta name="keywords" content="html,listeler,frontend">
+        <meta http-equiv="refresh" content="1000; URL=sayfa2.html">
+    </head>
+    <body>
+        <a name="sayfaBasi"></a>
+        
+        <h1> Listeler </h1>
+
+        <!-- unorderedlist-->
+        <h3>
+            <ul>
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </h3>
+
+        <h3>
+            <ul style="list-style-type:circle">
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </h3>
+
+        <!-- orderedlist-->
+        
+        <h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>bootstrap</li>
+                <li>Javascript</li>
+            </ol>
+        </h3>
+
+        <h3>
+            <ol type="A">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>bootstrap</li>
+                <li>Javascript</li>
+            </ol>
+        </h3>
+
+        <h3>
+            <ol type="i">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>bootstrap</li>
+                <li>Javascript</li>
+            </ol>
+        </h3>
+
+    <!-- Emmet Özelliği -->
+    <h1>Emmet Özellikleri</h1>
+        <ul>
+            <li>+ kardeş öge</li>
+            <li>> içinde öge</li>
+            <li>^ yukarı çık</li>
+            <li>* çarp</li>
+            <li>lorem ???</li>
+            <li>. class</li>
+            <li># id</li>
+        </ul>
+
+        <!--h1+h2+h3+p+ul>li*3^+p+h1+h2 -->
+        <h1></h1>
+        <h2></h2>
+        <h3></h3>
+        <p></p>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <p></p>
+        <h1></h1>
+        <h2></h2>
+
+        <!-- h1#header>lorem2^h2#altbaslik>lorem3^p.paragraf>ul#tablo>li*3>lorem1   -->
+        <h1 id="header">Lorem, ipsum.</h1>
+        <h2 id="altbaslik">Lorem, ipsum dolor.</h2>
+        <p class="paragraf">
+            <ul id="tablo">
+                <li>Lorem.</li>
+                <li>Aperiam.</li>
+                <li>Voluptas.</li>
+            </ul>
+        </p>
+
+        <!-- h1#banner+h2#altbaslik+ul#tablo>li*3  -->
+        <h1 id="banner"></h1>
+        <h2 id="altbaslik"></h2>
+        <ul id="tablo">
+            <li>h1+h2+h3+p+ul>li*3^+p+h1+h2</li>
+            <li>h1#banner+h2#altbaslik+ul#tablo>li*3</li>
+            <li>h1#header>lorem2^h2#altbaslik>lorem3^p.paragraf>ul#tablo>li*3>lorem1</li>
+        </ul>
+
+        <!-- div>p#item$*3>lorem2 -->
+        <div>
+            <p id="item1">Lorem, ipsum.</p>
+            <p id="item2">Eius, rem.</p>
+            <p id="item3">Distinctio, nam?</p>
+        </div>
+
+        <h1>Resimlerle Çalışmak</h1>
+        <!-- img -->
+        <img src="https://courses.kodluyoruz.org/asset-v1:Kodluyoruz+DS102+2020+type@asset+block@Youtube_cover_pic_Engin__5_.png" alt="google" width="100" height="50" align="right">
+        <img src="https://assets.ubuntu.com/v1/3faca6ca-netflixhp-strip-customers.png" alt="Netflix logo" title="netflix">
+        <img src="https://picsum.photos/300/300" alt="resimler" border="3"/>
+
+
+        <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+
+        <!-- bir resim üzerinde birden fazla link vermek. -->
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.vatanbilgisayar.com/">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.apple.com/tr/iphone/?afid=p238%7CsQFvFzIPM-dc_mtid_209258sv42346_pcrid_587864081714_pgrid_129146981930_&cid=wwa-tr-kwgo-iphone--slid---productid--Brand--Announce-">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.kahvedunyasi.com/">
+    </map>
+
+    <picture>
+        <!-- tarayıcının boyutuna göre resmin kaynağını ayarlama -->
+        <source srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" media="(min-width: 800px)">
+    
+        <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" /> 
+    </picture>
+
+    </body>
+    <aside>
+        <!-- span: inline gruplama ve div: blok gruplama  -->
+
+    </aside>
+    <footer>
+        <a href="https://www.github.com/MelihAfsar" target="_blank">Yeni sekmede Github'a git</a>
+        <br>
+
+        <a href="https://www.github.com/MelihAfsar" target="_self">Aynı sekmede Github'a git</a>
+        <br>
+        <a href="#sayfaBasi">En Üste Git</a>
+    </footer>
+</html>
