@@ -1,0 +1,74 @@
+/*  
+    . class
+    # id
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: rgb(200,210,100);
+}
+
+.text-brown {
+    color: brown;
+}
+
+.font-size-small {
+    font-size: small;
+}
+
+.font-size-medium {
+    font-size: medium;
+}
+
+#second-article {
+    font-family: Cursive;
+}
+
+/*  selector özellikleri */
+.color-blue.font-weight-bold {
+    color: blue;
+    font-weight: bold;
+}
+
+.color-blue .font-weight-bold {
+    color: blue;
+    font-weight: bold;
+}
+
+li:nth-child(2n+1) {
+    font-style: italic;
+}
+
+p.gray{
+    color: gray;
+}
+
+[name]{
+    color: orange;
+}
+
+/* Burada sınıfı .btn ve niteliği(attribute) [disabled] olan butona CSS uyguladık. */
+.btn[disabled] {
+    color: orchid;
+}
+/* Daha önce tarayıcıda açılmamış linke CSS uygular. */
+a:link {
+    color: red;
+}
+
+/* Seçici ile işaretlenen etiketin üzerine mouse ile gelindiğinde CSS uygalanır ve mouse üzerinde değilken etki kaybolur. */
+a:hover {
+    color: pink;
+}
+
+/* Mouse ile tıklandığında CSS uygulanır. Tıklama kaldırıldığında etki kaybolur. */
+a:active {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    
+  }

@@ -1,0 +1,51 @@
+.container {
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    color:white;
+    width: 350px;
+    border-radius: 0.5em;
+    margin: 0.3em;
+    float: left;
+    position:static;
+    
+}
+
+p {
+    padding: 0.3em; 
+}
+
+#box2 {
+    background-color: blueviolet;
+}
+
+.bg-blue.bold {
+    background-color: blue;
+    font-weight: bold;
+}
+
+.bg-red.italic {
+    background-color: red;
+    font-style: italic;
+}
+
+/* 
+Kutuların sağını solunu temizlemek için
+*/
+.clear{
+    clear: both;
+}
+
+.left-bar{
+    width: 200px;
+
+}
+
+.content {
+    width: 800px;
+
+}
+.container2{
+width: 1000px;
+}
+
