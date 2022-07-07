@@ -1,0 +1,10 @@
+.row {
+    margin: 10px;
+    background-color: aqua;
+    padding: 10px;
+    float:none;
+}
+
+.col-4 {
+    background-color: brown;
+}
